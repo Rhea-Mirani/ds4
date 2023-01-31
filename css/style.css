@@ -1,0 +1,22 @@
+img{
+    width: 45%;
+    margin: auto;
+    padding: 5px;
+    border: green solid;
+}
+li{
+    display: inline-block;
+}
+.active{
+    border: solid red
+}
+body{
+    background-color: rgb(228, 235, 148);
+}
+.skip{
+    position: absolute;
+    left: -1000px
+}
+.skip:focus{
+    left: 0px;
+}
